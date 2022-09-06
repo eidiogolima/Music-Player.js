@@ -1,0 +1,13 @@
+*, body {
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style: none;  
+}
+.conatiner {
+  max-width:1000px;
+  margin: 0 auto;
+  
+}
