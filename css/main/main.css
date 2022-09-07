@@ -6,19 +6,36 @@
     cursor: pointer;
 }
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 32px;
 }
+h1::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 50%;
+    height: 4px;
+    background: rgb(57, 57, 57);
+    position: relative;
+}
+
+#player-img img {
+    border-radius: 4px;
+}
+
 #player-content {
     margin-top: 100px;
-    padding: 20px 100px;
-    background: #c2c2c2;
+    margin-bottom: 100px;
+    padding: 20px 40px;
+    background: #9a9a9a;
     border-radius: 4px;
-    background-image: url('../../assets/img/musica.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
 }
 
 #controls {
-    margin-top: 300px;
+    margin-top: 32px;
 }
