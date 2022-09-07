@@ -4,12 +4,18 @@
     justify-content: center;
 }
 h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #player-content{
     margin-top: 100px;
-    padding: 100px 100px;
+    padding: 20px 100px;
     background: #c2c2c2;
     border-radius: 4px;
-    background-image: url('');
+    background-image: url('../../assets/img/musica.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#controls {
+    margin-top: 200px;
 }
