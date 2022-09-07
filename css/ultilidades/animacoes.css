@@ -1,0 +1,28 @@
+@keyframes go-next {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+#progresso {
+    display: flex;
+    width: 70%;
+    height: 14px;
+    background: #c2c2c2;
+    margin: 0 auto;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.barra {
+    height: 100%;
+    position: relative;
+    background: red;
+}
+
+.barra.disable {
+    animation-duration: 0s;
+}

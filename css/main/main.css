@@ -17,7 +17,7 @@ h1::after{
     margin-top: 8px;
     width: 50%;
     height: 4px;
-    background: rgb(57, 57, 57);
+    background: #767676;
     position: relative;
 }
 

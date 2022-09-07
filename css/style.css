@@ -1,4 +1,3 @@
-
 /* ========= DEFAULT =========== */
 
 @import url('./default/global.css');
@@ -8,4 +7,4 @@
 
 @import url('./ultilidades/botao.css');
 @import url('./ultilidades/componentes.css');
-
+@import url('./ultilidades/animacoes.css');
