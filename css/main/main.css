@@ -1,0 +1,15 @@
+#controls ul {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+h1{
+    font-size: 2rem;
+}
+#player-content{
+    margin-top: 100px;
+    padding: 100px 100px;
+    background: #c2c2c2;
+    border-radius: 4px;
+    background-image: url('');
+}
