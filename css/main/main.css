@@ -1,12 +1,14 @@
 #controls ul {
     display: flex;
-    cursor: pointer;
     justify-content: center;
 }
-h1{
+#controls li {
+    cursor: pointer;
+}
+h1 {
     font-size: 1.5rem;
 }
-#player-content{
+#player-content {
     margin-top: 100px;
     padding: 20px 100px;
     background: #c2c2c2;
@@ -16,6 +18,7 @@ h1{
     background-size: cover;
     color: #fff;
 }
+
 #controls {
     margin-top: 300px;
 }
